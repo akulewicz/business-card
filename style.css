@@ -15,7 +15,7 @@ body {
     background-color: #F8F8F8;
     max-width: 624px;
     border-radius: 16px;
-    margin: 10px;
+    margin: 16px;
     padding: 32px;
 }
 
@@ -34,4 +34,23 @@ body {
     font-size: 36px;
     font-weight: regular;
     margin: 0;
+}
+
+.person__position {
+    margin: 0;
+    margin-bottom: 24px;
+    font-style: italic;
+    font-size: 18px;
+    color: #545454;
+}
+
+.person__description {
+    font-size: 16px;
+    font-weight: regular;
+    line-height: 22px;
+}
+
+.person__link {
+    color: #E20613;
+    text-decoration: none;
 }
